@@ -41,6 +41,7 @@ var events = require("../../red/runtime/events.js");
 var http = require('http');
 var express = require('express');
 var app = express();
+require('should-sinon');
 
 var address = '127.0.0.1';
 var listenPort = 0; // use ephemeral port
